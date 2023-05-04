@@ -72,17 +72,17 @@ Corosync — программный продукт, который позвол�
 
 Первая нода:
 
-![screen1](https://github.com/)
-![screen2](https://github.com/)
+![screen1](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen1.jpg)
+![screen2](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen2.jpg)
 
 Выключаем первую ноду на несколько минут. Запрашиваем статус второй ноды, чтобы убедиться, что первая недоступна.
 
-![screen3](https://github.com/)
-![screen4](https://github.com/)
+![screen3](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen3.jpg)
+![screen4](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen4.jpg)
 
 Включил первую ноду:
 
-![screen5](https://github.com/)
+![screen5](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen5.jpg)
 
 Как только первая нода будет доступна, вручную переключаем на нее виртуальный IP и nginx командой:
 
@@ -91,13 +91,13 @@ pcs resource move virtual_ip node1
 pcs resource move nginx node1
 ```
 
-![screen6](https://github.com/)
-![screen7](https://github.com/)
+![screen6](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen6.jpg)
+![screen7](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen7.jpg)
 
 И смотрим, что стало на второй ноде:
 
-![screen8](https://github.com/)
-![screen9](https://github.com/)
+![screen8](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen8.jpg)
+![screen9](https://github.com/KorolkovDenis/10.3-pacemaker-debian/blob/main/screenshots/screen9.jpg)
 
 ---
 
